@@ -13,3 +13,6 @@ What are some situations when branches would be helpful in keeping your history 
 Branches are useful for when you want to experiment with additional components.  You don't want it to be part of the 
 official product yet. Situations to use a branch include different uses for the general code (specific uses) and 
 experimentation with something new. 
+
+How do the diagrams help you visualize the branch structure?
+It helps with flow (git log) and how different parts connect together.  Concept of reachability can be seen on a diagram.
