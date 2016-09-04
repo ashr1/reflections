@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+So that no matter which computer you work on locally, you can work on the latest versions of you work. Also,
+if something happens to the computer you normally work on, your work is still on github.
