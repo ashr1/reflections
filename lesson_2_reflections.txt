@@ -5,3 +5,6 @@ How is the staging area different from the working directory and the repository?
 Staging area relates to the commit as not all files from the working directory get committed. Staging area is different
 from the repository because it isn't actually part of the repository, it's just an intermediary step to commit changes to
 the repo.
+
+How can you use the staging area to make sure you have one commit per logical change?
+git diff --staged will compare the staging area to the most recent commit.
