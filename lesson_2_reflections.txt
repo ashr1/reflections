@@ -16,3 +16,8 @@ experimentation with something new.
 
 How do the diagrams help you visualize the branch structure?
 It helps with flow (git log) and how different parts connect together.  Concept of reachability can be seen on a diagram.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A new branch with the histories of the previously two independent branches intact.  It almost is like a straight line when
+you merge two branches together. We represent it in the diagram the way we do because it is intuitive to how we
+perceive merge on a tree like structure.
