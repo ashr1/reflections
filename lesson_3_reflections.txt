@@ -5,3 +5,9 @@ if something happens to the computer you normally work on, your work is still on
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Working with others is a situation where pulling yourself is better.  If you're working on a branch from the main master branch and your
 code depends on the master currently in place, a auto pull could result in your work behaving differently as a result.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+forks: cloning an existing repository, happens all on github (no local repository). used to test others' code for yourself
+clones: a general copy of a repository. can be used to initially get a repository onto your local computer.
+branches: divergent commits from the main line of commits.  used for experimenting with new features also as a way to update
+commit histories from local to github and vice versa.
