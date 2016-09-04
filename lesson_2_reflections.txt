@@ -21,3 +21,8 @@ What is the result of merging two branches together? Why do we represent it in t
 A new branch with the histories of the previously two independent branches intact.  It almost is like a straight line when
 you merge two branches together. We represent it in the diagram the way we do because it is intuitive to how we
 perceive merge on a tree like structure.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: Don't have to spend alot of time reading code: finding similarities and differences of 2 files and the original.
+Cons: Sometimes automatic merging does not do the right thing.  Process is still ambiguous. What about code dependencies
+and removing a piece of code that one person kept but another took out?
