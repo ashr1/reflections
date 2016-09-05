@@ -16,3 +16,9 @@ What is the benefit of having a copy of the last known state of the remote store
 You are aware of how far off you are from the remote repository in case of multiple commits locally.  Also when conflicts
 arise in branches, there is a point in which everything was unified to work from when deciding how to resolve the conflicts.
 When interacting with the remote, changes do not override your local work suddenly.  There is awareness on how things play out.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Collaborating without using either tools would be tedious having to send files back and forth.  We would have to meetup or 
+talk about changes directly.  Moreover, we would have to scan every file for changes if the other person did not detail
+what they did.  Collaborating without these tools would be easier in the sense that it relies on direct communication
+with others.  Also, everyone would not have to go through the learning curve required initial for git(hub).
