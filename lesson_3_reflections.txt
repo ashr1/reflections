@@ -22,3 +22,9 @@ Collaborating without using either tools would be tedious having to send files b
 talk about changes directly.  Moreover, we would have to scan every file for changes if the other person did not detail
 what they did.  Collaborating without these tools would be easier in the sense that it relies on direct communication
 with others.  Also, everyone would not have to go through the learning curve required initial for git(hub).
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Make changes in a separate branch when collaborating with others.  Get others' feedback before merging  onto the main branch.
+Benefit on editing a separate branch is involving others.  Benefit on of editing the master itself is that it is simple since
+one branch is involved, rather than having to keep track of different branches that seem like they don't even belong in the
+project.
