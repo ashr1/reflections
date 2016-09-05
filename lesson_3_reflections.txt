@@ -11,3 +11,8 @@ forks: cloning an existing repository, happens all on github (no local repositor
 clones: a general copy of a repository. can be used to initially get a repository onto your local computer.
 branches: divergent commits from the main line of commits.  used for experimenting with new features also as a way to update
 commit histories from local to github and vice versa.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You are aware of how far off you are from the remote repository in case of multiple commits locally.  Also when conflicts
+arise in branches, there is a point in which everything was unified to work from when deciding how to resolve the conflicts.
+When interacting with the remote, changes do not override your local work suddenly.  There is awareness on how things play out.
